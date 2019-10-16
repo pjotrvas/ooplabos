@@ -39,6 +39,15 @@ public class Roots {
         getRoots(realPart, imaginaryPart, root);
     }
 
+    /**
+     * This method calculates and prints the nth root of a complex number using De Moivre's Formula.
+     * @param realPart real part of a complex number
+     * @param imaginaryPart imaginary part of a complex number
+     * @param n nth root to calculate
+     * @see <a href="https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Roots_of_complex_numbers">De Moivre's Formula</a>
+     *
+     */
+
     private static void getRoots(double realPart, double imaginaryPart, int n) {
         double r = Math.sqrt(realPart * realPart + imaginaryPart * imaginaryPart);
         double theta = Math.atan2(imaginaryPart , realPart);
@@ -53,15 +62,22 @@ public class Roots {
             printRoot(real , img , j);
         }
     }
-        private static void printRoot(double realPart, double imaginaryPart, int n){
-            char sign;
-                if (imaginaryPart >= 0){
-                    sign = '+';
-                }
-                else {
-                    sign = '-';
-                    imaginaryPart = Math.abs(imaginaryPart);
-                }
+
+    /**
+     * Prints a given complex number in a formatted fashion
+     * @param realPart real part of a complex number
+     * @param imaginaryPart imaginary part of a complex number
+     * @param n nth solution of the given root
+     */
+    private static void printRoot(double realPart, double imaginaryPart, int n){
+        char sign;
+            if (imaginaryPart >= 0){
+                sign = '+';
+            }
+            else {
+                sign = '-';
+                imaginaryPart = Math.abs(imaginaryPart);
+            }
 
             System.out.printf("%d) %.3f %c %.3fi\n", n+1, realPart, sign, imaginaryPart);
 
