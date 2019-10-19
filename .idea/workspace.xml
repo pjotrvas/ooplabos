@@ -10,14 +10,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="3">
       <content type="file-editors">
         <state>
           <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../FER/3. SEMESTAR/OOP/lab1/src/hr/fer/oop/lab1/prob4/PrimeFactorization.java">
+              <entry file="file://$PROJECT_DIR$/../FER/3. SEMESTAR/OOP/lab1/src/hr/fer/oop/lab1/prob5/Shapes.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-154" />
+                  <state relative-caret-position="837">
+                    <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+                  </state>
                 </provider>
               </entry>
             </file>
@@ -36,24 +38,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2003" />
+          <entry key="java" value="2505" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2003" />
+          <entry key="JAVA" value="2505" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -61,19 +63,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob3/PrimeNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob1/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob4/PrimeFactorization.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob5/Shapes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="1215">
+              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding>
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob2/Roots.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob3/PrimeNumbers.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob4/PrimeFactorization.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob5/Shapes.java" />
       </list>
     </option>
   </component>
@@ -133,6 +140,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="prob1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="prob2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="prob3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="prob4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571473779638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571475223495" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,9 +192,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.lab1.prob4.PrimeFactorization" />
+      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.lab1.prob5.Shapes" />
       <module name="ooplabos" />
-      <option name="PROGRAM_PARAMETERS" value="9" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -254,20 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob1/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob2/Roots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1356">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../FER/3. SEMESTAR/OOP/lab1/src/hr/fer/oop/lab1/prob3/PrimeNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
@@ -280,6 +300,20 @@
         <state relative-caret-position="-154" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob2/Roots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob4/PrimeFactorization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob3/PrimeNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -287,10 +321,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob4/PrimeFactorization.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob1/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FER/3. SEMESTAR/OOP/lab1/src/hr/fer/oop/lab1/prob5/Shapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/prob5/Shapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
