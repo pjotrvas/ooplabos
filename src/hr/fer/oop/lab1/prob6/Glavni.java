@@ -7,22 +7,24 @@ public class Glavni {
     static Scanner input = new Scanner(System.in);
 
     private static ListNode addToList(ListNode head, double value) {
-        ListNode node = new ListNode();
-        node.data = value;
-        node.next = null;
-
-        ListNode temp = head;
 
         if (head == null){
-            head = node;
-            return head;
+            head = new ListNode();
+            head.data = value;
+            head.next = null;
         }
 
-        while (temp.next != null){
-            temp = temp.next;
-        }
+        else {
+            ListNode temp = head;
 
-        temp.next = node;
+            while (temp.next != null){
+                temp = temp.next;
+            }
+
+            temp.next = new ListNode();
+            temp.next.data = value;
+            temp.next.next = null;
+        }
 
         return head;
     }
@@ -30,38 +32,51 @@ public class Glavni {
     private static int listSize(ListNode head){
         int counter = 0;
 
-        while (head.next!=null){
+        if (head == null){ return 0;}
+
+        counter = 1;
+        ListNode temp = head;
+
+        while (temp.next!=null){
             counter++;
-            head = head.next;
+            temp = temp.next;
         }
 
         return counter;
     }
 
     private static double calcAverage(ListNode head){
-        double sum = 0;
 
         if (head == null){
-            sum = 0;
-            return sum;
+            return 0;
         }
 
-        else if (head.next == null){
-            sum = head.data;
-            return sum;
+        double sum = head.data;
+        ListNode temp = head;
+
+        while (temp.next != null){
+            temp = temp.next;
+            sum += temp.data;
         }
 
-        while (head.next != null){
-            sum += head.data;
-            head = head.next;
-        }
         return sum/listSize(head);
 
     }
 
-    private static void writeBiggerThan(ListNode head, double value){
+    private static void writeBiggerThan(ListNode head, double value) {
+        if (head == null) {
+            return;
+        }
 
-    }
+        double average = calcAverage(head);
+        ListNode temp = head;
+
+        while (temp != null) {
+            if (temp.data > average) { System.out.println(temp.data); }
+                temp = temp.next;
+            }
+        }
+
 
     public static void main(String[] args) {
         ListNode head = null;
@@ -84,7 +99,8 @@ public class Glavni {
         System.out.println("Prosjek unesenih numbereva je: " + average);
 
         System.out.println("Brojevi koji su veci od prosjeka su: ");
-    //    writeBiggerThan(head, average);
+        writeBiggerThan(head, average);
+        input.close();
     }
 }
 
