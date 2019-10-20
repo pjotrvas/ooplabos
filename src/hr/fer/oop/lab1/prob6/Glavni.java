@@ -82,6 +82,7 @@ public class Glavni {
         ListNode head = null;
 
         while (true) {
+            System.out.println("Upisite decimalni broj: ");
             if (input.hasNextDouble()) {
                 double number = input.nextDouble();
                 if (number < 0) break;
@@ -91,7 +92,7 @@ public class Glavni {
         }
 
         if (listSize(head) < 1){
-            System.out.println("Niste unijeli niti jedan number!");
+            System.out.println("Niste unijeli niti jedan broj!");
             return;
         }
 
