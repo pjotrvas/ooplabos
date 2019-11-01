@@ -19,4 +19,10 @@ public class Constants {
 
     public static final Formation DEFAULT_FORMATION = Formation.F442;
 
+    public static final int DEFAULT_PLAYING_SKILL = 50;
+    public static final int MIN_PLAYING_SKILL = 0;
+    public static final int MAX_PLAYING_SKILL = 100;
+
+    public static final PlayingPosition DEFAULT_PLAYING_POSITION = PlayingPosition.MF;
+
 }

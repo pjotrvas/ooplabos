@@ -26,12 +26,12 @@ public abstract class Person {
         return name;
     }
 
-    public void setName ( String name ) {
-        this.name = name;
-    }
-
     public String getCountry () {
         return country;
+    }
+
+    public int getEmotion () {
+        return emotion;
     }
 
     public void setEmotion ( int emotion ) {
