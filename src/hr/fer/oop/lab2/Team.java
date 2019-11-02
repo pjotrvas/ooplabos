@@ -5,6 +5,7 @@ import hr.fer.oop.lab2.welcomepack.Formation;
 import hr.fer.oop.lab2.welcomepack.ManagableTeam;
 import hr.fer.oop.lab2.welcomepack.SimpleFootballPlayerCollection;
 
+
 public abstract class Team implements ManagableTeam {
 
     private String name = Constants.DEFAULT_TEAM_NAME;
