@@ -5,10 +5,10 @@ import hr.fer.oop.lab2.welcomepack.Formation;
 
 public class NationalTeam extends Team{
 
-    private String country = Constants.DEFAULT_COUNTRY;
+    private String country = Constants.DEFAULT_COUNTRY_NAME;
 
     public NationalTeam() { super(Constants.MAX_NUMBER_OF_PLAYERS_NATIONAL); }
-    
+
     public NationalTeam(String name, Formation formation, String country){
         super(name, formation, Constants.MAX_NUMBER_OF_PLAYERS_NATIONAL);
 

@@ -34,4 +34,10 @@ public class Constants {
     public static final double SEVENTY_PERCENT = 0.7d;
     public static final double THIRTY_PERCENT = 0.3d;
 
+    public static final int DEFAULT_REPUTATION = 50;
+    public static final int MIN_REPUTATION = 0;
+    public static final int MAX_REPUTATION = 100;
+
+    public static final int MAX_NUMBER_OF_PLAYERS_CLUB = 25;
+
 }
