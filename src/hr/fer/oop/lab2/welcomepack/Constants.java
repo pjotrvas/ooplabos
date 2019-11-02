@@ -25,4 +25,7 @@ public class Constants {
 
     public static final PlayingPosition DEFAULT_PLAYING_POSITION = PlayingPosition.MF;
 
+    public static final String DEFAULT_TEAM_NAME = "TeamX";
+    public static final int STARTING_ELEVEN_SIZE = 11;
+
 }
