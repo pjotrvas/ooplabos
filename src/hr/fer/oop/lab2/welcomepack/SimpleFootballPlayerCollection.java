@@ -2,6 +2,9 @@ package hr.fer.oop.lab2.welcomepack;
 
 import hr.fer.oop.lab2.FootballPlayer;
 
+/**
+ * A specification of a simple data structure in which players are stored.
+ */
 public interface SimpleFootballPlayerCollection {
 
     /**
