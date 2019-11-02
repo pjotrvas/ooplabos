@@ -21,6 +21,8 @@ public class ClubTeam extends Team{
         else System.out.println("ERROR: Reputation out of range.");
     }
 
+    public int getReputation(){ return reputation; }
+
     @Override
     public double calculateRating () {
         return Constants.SEVENTY_PERCENT * getRegisteredPlayers().calculateSkillSum() + Constants.THIRTY_PERCENT * getRegisteredPlayers().calculateEmotionSum();

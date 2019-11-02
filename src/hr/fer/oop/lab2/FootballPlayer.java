@@ -8,6 +8,8 @@ public class FootballPlayer extends Person {
     private int playingSkill = Constants.DEFAULT_PLAYING_SKILL;
     private PlayingPosition playingPosition = Constants.DEFAULT_PLAYING_POSITION;
 
+    public FootballPlayer(){ super();}
+
     public FootballPlayer (String name, String country, int emotion, int playingSkill , PlayingPosition playingPosition ) {
         super(name, country, emotion);
 
