@@ -28,4 +28,10 @@ public class Constants {
     public static final String DEFAULT_TEAM_NAME = "TeamX";
     public static final int STARTING_ELEVEN_SIZE = 11;
 
+    public static final String DEFAULT_COUNTRY_NAME = "Noland";
+    public static final int MAX_NUMBER_OF_PLAYERS_NATIONAL = 23;
+
+    public static final double SEVENTY_PERCENT = 0.7d;
+    public static final double THIRTY_PERCENT = 0.3d;
+
 }
