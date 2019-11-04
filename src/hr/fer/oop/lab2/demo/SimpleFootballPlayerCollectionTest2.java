@@ -14,10 +14,14 @@ public class SimpleFootballPlayerCollectionTest2 {
 
         FootballPlayer player = new FootballPlayer("Ivan", "Hrvatska", 9,9, PlayingPosition.GK);
         FootballPlayer player2 = new FootballPlayer("Marko", "Hrvatska", 9,9, PlayingPosition.GK);
+        FootballPlayer player3 = new FootballPlayer("Ivica", "Hrvatska", 9,9, PlayingPosition.GK);
+        FootballPlayer player4 = new FootballPlayer("Luka", "Hrvatska", 9,9, PlayingPosition.GK);
 
         collection.add(player);
         collection.add(player2);
-        
+        collection.add(player3);
+        collection.add(player4);
+
 
         String output = "";
         for ( FootballPlayer p: collection.getPLayers()) {
@@ -27,6 +31,7 @@ public class SimpleFootballPlayerCollectionTest2 {
         System.out.println(output);
 
         ((SimpleFootballPlayerCollectionImpl) collection).remove(player);
+        ((SimpleFootballPlayerCollectionImpl) collection).remove(player2);
 
         String output2 = "";
         for ( FootballPlayer p: collection.getPLayers()) {
@@ -36,6 +41,4 @@ public class SimpleFootballPlayerCollectionTest2 {
         System.out.println(output2 );
 
     }
-
-
 }
