@@ -1,12 +1,13 @@
 package hr.fer.oop.lab2;
 
+import hr.fer.oop.lab2.welcomepack.FootballPlayerCollection;
 import hr.fer.oop.lab2.welcomepack.SimpleFootballPlayerCollection;
 
 /**
  * Implementation of SimpleFootbalPlayerCollection.
  * Collection which stores football players through an array.
  */
-public class SimpleFootballPlayerCollectionImpl implements SimpleFootballPlayerCollection {
+public class SimpleFootballPlayerCollectionImpl implements FootballPlayerCollection {
 
     private FootballPlayer[] players;
 
@@ -79,4 +80,20 @@ public class SimpleFootballPlayerCollectionImpl implements SimpleFootballPlayerC
 
     @Override
     public FootballPlayer[] getPLayers () { return players; }
+
+    @Override
+    public boolean remove ( FootballPlayer player ) {
+        if (player == null) return false;
+
+        for (int i = 0; i < players.length; i++) {
+            if (players[i] != null){
+                if (players[i].equals(player)){
+                    players[i] = null;
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
 }
