@@ -2,6 +2,7 @@ package hr.fer.oop.lab2;
 
 import hr.fer.oop.lab2.welcomepack.Constants;
 import hr.fer.oop.lab2.welcomepack.Formation;
+import hr.fer.oop.lab3.exceptions.TeamCountryNullException;
 
 public class NationalTeam extends Team{
 
@@ -12,8 +13,17 @@ public class NationalTeam extends Team{
     public NationalTeam(String name, Formation formation, String country){
         super(name, formation, Constants.MAX_NUMBER_OF_PLAYERS_NATIONAL);
 
-        if (country != null) this.country = country;
-        else System.out.println("ERROR: Country name must not be null.");
+        try {
+            if (country != null) this.country = country;
+            else throw new TeamCountryNullException();
+        } catch (TeamCountryNullException e){
+            e.printStackTrace();
+            this.country = "noCountry";
+        }
+        finally {
+            if (country == null) System.out.println("Country set to noCountry.");
+        }
+
     }
 
     @Override

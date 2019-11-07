@@ -1,6 +1,7 @@
 package hr.fer.oop.lab2;
 
 import hr.fer.oop.lab2.welcomepack.Constants;
+import hr.fer.oop.lab3.exceptions.FootballPlayerEmotionException;
 
 import java.util.Objects;
 
@@ -35,8 +36,15 @@ public abstract class Person {
     }
 
     public void setEmotion ( int emotion ) {
-        if (emotion >= Constants.MIN_EMOTION && emotion <= Constants.MAX_EMOTION) this.emotion = emotion;
-        else System.out.println("ERROR: Emotion is out of range.");
+      try {
+          if (emotion >= Constants.MIN_EMOTION && emotion <= Constants.MAX_EMOTION) this.emotion = emotion;
+          else throw new FootballPlayerEmotionException("Emotion is not in the defined range :", Constants.MIN_EMOTION, Constants.MAX_EMOTION);
+          } catch (FootballPlayerEmotionException e){
+          e.printStackTrace();
+          this.emotion = 25;
+      } finally {
+          if (emotion < Constants.MIN_EMOTION || emotion > Constants.MAX_EMOTION) System.out.println("Emotion set to 25.");
+      }
     }
 
     @Override

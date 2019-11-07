@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d141a7-4f59-4e13-ad3e-d4aaae7def7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerCreationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerEmotionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerPlayingSkillException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCountryNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCreationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamFormationNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamNameNullException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +29,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12167" />
+          <entry key="java" value="12883" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12167" />
+          <entry key="JAVA" value="12883" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -48,13 +43,13 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="148" />
+          <entry key="java" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="148" />
+          <entry key="JAVA" value="154" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
@@ -66,19 +61,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballException.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="810">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2017#2018#0" expanded="true" />
+                <element signature="e#2052#2053#0" expanded="true" />
+                <element signature="e#2104#2105#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerCreationException.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="486">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1867#1868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Coach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/NationalTeamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2529#2530#0" expanded="true" />
+                <element signature="e#2586#2587#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,42 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamFormationNullException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerEmotionException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="121" selection-start-line="4" selection-start-column="121" selection-end-line="4" selection-end-column="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerPlayingSkillException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="124" selection-start-line="4" selection-start-column="124" selection-end-line="4" selection-end-column="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/RuntimeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
-              <folding>
-                <element signature="e#1595#1596#0" expanded="true" />
-                <element signature="e#1625#1626#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,19 +226,15 @@
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/Formation.java" />
         <option value="$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/Coach.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/PlayingPosition.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/SimpleFootballPlayerCollection.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/ManagableTeam.java" />
         <option value="$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/Team.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java" />
         <option value="$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/NationalTeam.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/Constants.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/Manager.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Coach.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/CoachTest.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/FootballPlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/ClubTeam.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/ClubTeamTest.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/FootballPlayerCollection.java" />
@@ -221,6 +252,10 @@
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCountryNullException.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamNameNullException.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamFormationNullException.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java" />
       </list>
     </option>
   </component>
@@ -291,6 +326,14 @@
               <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,7 +354,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573133889811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573136216541" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -331,7 +374,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.lab3.prob2.test" />
+      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.lab2.demo.FootballPlayerTest" />
       <module name="ooplabos" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -375,7 +418,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1910" y="-81" width="1910" height="2160" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49975857" visible="true" weight="0.18083961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -487,42 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Coach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/SimpleFootballPlayerCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1412">
@@ -551,27 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/ClubTeamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/NationalTeamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -630,16 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,6 +769,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2529#2530#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Coach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/NationalTeamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>

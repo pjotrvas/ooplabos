@@ -4,6 +4,8 @@ import hr.fer.oop.lab2.welcomepack.Constants;
 import hr.fer.oop.lab2.welcomepack.Formation;
 import hr.fer.oop.lab2.welcomepack.ManagableTeam;
 import hr.fer.oop.lab2.welcomepack.SimpleFootballPlayerCollection;
+import hr.fer.oop.lab3.exceptions.TeamFormationNullException;
+import hr.fer.oop.lab3.exceptions.TeamNameNullException;
 
 
 public abstract class Team implements ManagableTeam {
@@ -16,8 +18,16 @@ public abstract class Team implements ManagableTeam {
     public Team(String name, Formation formation, int registeredPlayersSize){
         this.registeredPlayers = new SimpleFootballPlayerCollectionImpl(registeredPlayersSize);
 
-        if (name != null) this.name = name;
-        else System.out.println("ERROR: Name must not be null");
+       try {
+           if (name != null) this.name = name;
+           else throw new TeamNameNullException();
+       } catch (TeamNameNullException e){
+           e.printStackTrace();
+           this.name = "noName";
+       }
+       finally {
+           if (name == null) System.out.println("Name is set to noName");
+       }
 
         setFormation(formation);
     }
@@ -42,8 +52,15 @@ public abstract class Team implements ManagableTeam {
 
     @Override
     public void setFormation ( Formation formation ) {
-        if (formation != null) this.formation = formation;
-        else System.out.println("ERROR: Formation must not be null.");
+        try {
+            if (formation != null) this.formation = formation;
+            else throw new TeamFormationNullException();
+        } catch (TeamFormationNullException e){
+            this.formation = Formation.F442;
+        }
+        finally {
+            if (formation == null) System.out.println("Formation set to 442.");
+        }
     }
 
     @Override

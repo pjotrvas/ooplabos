@@ -2,6 +2,8 @@ package hr.fer.oop.lab2;
 
 import hr.fer.oop.lab2.welcomepack.Constants;
 import hr.fer.oop.lab2.welcomepack.PlayingPosition;
+import hr.fer.oop.lab3.exceptions.FootballPlayerCreationException;
+import hr.fer.oop.lab3.exceptions.FootballPlayerPlayingSkillException;
 
 public class FootballPlayer extends Person {
 
@@ -18,13 +20,30 @@ public class FootballPlayer extends Person {
     }
 
     public void setPlayingSkill(int playingSkill){
-        if (playingSkill >= Constants.MIN_PLAYING_SKILL && playingSkill <= Constants.MAX_PLAYING_SKILL) this.playingSkill = playingSkill;
-        else System.out.println("ERROR: Playing skill is out of range.");
+        try {
+            if (playingSkill >= Constants.MIN_PLAYING_SKILL && playingSkill <= Constants.MAX_PLAYING_SKILL) this.playingSkill = playingSkill;
+            else throw (new FootballPlayerPlayingSkillException("Playing skill is not in the defined interval: ", Constants.MIN_PLAYING_SKILL, Constants.MAX_PLAYING_SKILL));
+        } catch (FootballPlayerPlayingSkillException e){
+            e.printStackTrace();
+            this.playingSkill = 25;
+        } finally {
+            if (playingSkill < Constants.MIN_PLAYING_SKILL || playingSkill > Constants.MAX_PLAYING_SKILL){
+                System.out.println("Skill set to 25.");
+            }
+        }
     }
 
     public void setPlayingPosition(PlayingPosition playingPosition){
-        if (playingPosition != null) this.playingPosition = playingPosition;
-        else System.out.println("ERROR: Playing position must not be null.");
+        try {
+            if (playingPosition != null) this.playingPosition = playingPosition;
+            else throw new FootballPlayerCreationException("Playing position must not be null. Set to GK.");
+        } catch (FootballPlayerCreationException e){
+            e.printStackTrace();
+            this.playingPosition = PlayingPosition.GK;
+        }
+        finally {
+            if (playingPosition == null) System.out.println("Playing position set to GK");
+        }
     }
 
     public int getPlayingSkill () {
