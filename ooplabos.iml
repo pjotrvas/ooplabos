@@ -12,7 +12,9 @@
         <CLASSES>
           <root url="jar://$MODULE_DIR$/ref/picture.jar!/" />
         </CLASSES>
-        <JAVADOC />
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/ref/picture-doc.zip!/" />
+        </JAVADOC>
         <SOURCES />
       </library>
     </orderEntry>
