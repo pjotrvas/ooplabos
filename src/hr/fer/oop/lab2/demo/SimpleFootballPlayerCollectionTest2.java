@@ -6,7 +6,6 @@ import hr.fer.oop.lab2.welcomepack.PlayingPosition;
 import hr.fer.oop.lab2.welcomepack.SimpleFootballPlayerCollection;
 
 public class SimpleFootballPlayerCollectionTest2 {
-
     public static void main(String[] args){
 
         final int SIZE = 10;
