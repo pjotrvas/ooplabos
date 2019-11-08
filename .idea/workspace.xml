@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d141a7-4f59-4e13-ad3e-d4aaae7def7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +35,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12927" />
+          <entry key="java" value="13678" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12927" />
+          <entry key="JAVA" value="13678" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -47,13 +49,13 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="4" />
-          <entry key="java" value="167" />
+          <entry key="java" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="167" />
+          <entry key="JAVA" value="196" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
@@ -64,38 +66,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/ref/picture.jar!/hr/fer/oop/lab3/pic/Picture.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1430">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="372">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/DrawCircleWithBorder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/image/WritableRaster.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/DrawTriangleWithBorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-431">
-              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -106,8 +112,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,11 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/Main.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/Roots.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob2/Roots.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob3/PrimeNumbers.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob4/PrimeFactorization.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob5/Shapes.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab1/prob6/Glavni.java" />
@@ -171,16 +172,23 @@
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Tools.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-1910" />
-    <option name="y" value="-81" />
-    <option name="width" value="1910" />
-    <option name="height" value="2160" />
+    <option name="x" value="21" />
+    <option name="y" value="47" />
+    <option name="width" value="763" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,7 +264,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573203084777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573249441625" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -276,7 +284,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.lab2.demo.FootballPlayerTest" />
+      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.lab3.prob1.Demonstration" />
       <module name="ooplabos" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -319,20 +327,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1910" y="-81" width="1910" height="2160" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49975857" visible="true" weight="0.18083961" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.3433661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50024146" side_tool="true" weight="0.14908504" />
+      <window_info id="Favorites" order="6" sideWeight="0.50152904" side_tool="true" weight="0.14987715" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37469822" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3194589" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,60 +396,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Second task" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/Coach.java" />
-    <entry file="file://$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/Team.java" />
-    <entry file="file://$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/FootballPlayer.java" />
-    <entry file="file://$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/ClubTeam.java" />
-    <entry file="file://$USER_HOME$/Desktop/lab2 2/src/main/java/hr/fer/oop/lab2/NationalTeam.java" />
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/SimpleFootballPlayerCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1412">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/welcomepack/ManagableTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/SimpleFootbalPlayerCollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/ClubTeamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/demo/CoachTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2403">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/SimpleFootballPlayerCollectionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -713,48 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/image/Raster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2241">
@@ -769,24 +681,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/ref/picture.jar!/hr/fer/oop/lab3/pic/Picture.class">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1430">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2706">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#4322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="2943">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java">
+    <entry file="jar://$PROJECT_DIR$/ref/picture.jar!/hr/fer/oop/lab3/pic/Picture.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="515">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/Tools.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/CircleFast.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/Demonstration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab3 2/src/hr/fer/oop/lab3/prob1/RectangleFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/DrawCircleWithBorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/DrawTriangleWithBorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
