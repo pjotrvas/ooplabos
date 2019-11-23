@@ -2,31 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d141a7-4f59-4e13-ad3e-d4aaae7def7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task1/DoubleTuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task1/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/Prize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/PrizeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Competitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/HumanPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/IndividualTournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/TeamTournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Tournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack3/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack4/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/CoffeeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/SmartSerpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/ItemBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/MilkBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/IPerishable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/MilkType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Bulb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/DBLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Fridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/RemoteAbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Tv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/BasicLifeCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/ExtendedLifeCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/NotGenderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task1/DoubleTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task1/Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task2/Prize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task2/PrizeGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task2/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/Competitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/HumanPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/IndividualTournament.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/TeamTournament.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task3/Tournament.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task4/pack1/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task4/pack2/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task4/pack3/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task4/pack4/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task5/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/ispiti/task5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task1/DoubleTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task1/DoubleTuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task1/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task1/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/Prize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task2/Prize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/PrizeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task2/PrizeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task2/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Competitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Competitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/IndividualTournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/IndividualTournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/TeamTournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/TeamTournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack1/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack1/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack2/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack2/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack3/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack3/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack4/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack4/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task5/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task5/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +93,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17151" />
+          <entry key="java" value="18349" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17151" />
+          <entry key="JAVA" value="18349" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -66,13 +107,13 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="5" />
-          <entry key="java" value="281" />
+          <entry key="java" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="281" />
+          <entry key="JAVA" value="307" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
@@ -83,101 +124,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack1/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack2/B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/IndividualTournament.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack3/C.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Robot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack4/D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1458">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -206,32 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerCreationException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCreationException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerPlayingSkillException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/FootballPlayerEmotionException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCountryNullException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamNameNullException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamFormationNullException.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Team.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/FootballPlayer.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab2/Person.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Drawable.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Tools.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/CircleFast.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Circle.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/CoffeeMaker.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/test.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/SmartSerpa.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Names.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Vector3D.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Reader.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Triple.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/Tuple.java" />
@@ -257,6 +182,32 @@
         <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack3/C.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack1/A.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack2/B.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/ispit1/task5/Main.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispit1/task5/Main.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task5/Main.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/Box.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Item.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Milk.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/IPerishable.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/ItemBox.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/MilkBox.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/MilkType.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Colors.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Tv.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Remote.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/RemoteAbs.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Bulb.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Fridge.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Device.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/Main.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/ExtendedLifeCost.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/BasicLifeCost.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Main.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/DBLoader.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Main.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/NotGenderException.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Person.java" />
       </list>
     </option>
   </component>
@@ -301,7 +252,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="ispiti" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="ispit2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
@@ -309,6 +260,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="ispiti" type="462c0819:PsiDirectoryNode" />
+              <item name="ispit2" type="462c0819:PsiDirectoryNode" />
               <item name="task5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -321,7 +273,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574526959487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574532898593" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -341,7 +293,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.ispiti.task5.Main" />
+      <option name="MAIN_CLASS_NAME" value="hr.fer.oop.ispiti.ispit2.task5.Main" />
       <module name="ooplabos" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -385,6 +337,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.20605187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,7 +348,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50152904" side_tool="true" weight="0.14987715" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31565967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3194589" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,7 +356,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3365282" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24167694" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,128 +405,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Second task" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Rectangle.java" />
-    <entry file="file://$USER_HOME$/Desktop/EquilateralTriangleFast.java" />
-    <entry file="file://$USER_HOME$/Desktop/EquilateralTriangle.java" />
-    <entry file="file://$USER_HOME$/Desktop/Tools.java" />
-    <entry file="file://$USER_HOME$/Desktop/CircleFast.java" />
-    <entry file="file://$USER_HOME$/Desktop/Drawable.java" />
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1896">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/EquilateralTriangleFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/DrawCircleWithBorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Demonstration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/RectangleFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-715">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/prob1/BorderedPicture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ref/picture.jar!/hr/fer/oop/lab3/pic/Picture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1359">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab1/labzadatak/FizzBuzzProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Names.java" />
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/SmartSerpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCreationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/exceptions/TeamCountryNullException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/Vector3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab2/NationalTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab3/labexam/CoffeeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -619,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/Prize.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task2/Prize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -641,7 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/PrizeGame.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task2/PrizeGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -657,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task2/Statistics.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task2/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -667,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/C.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task5/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -678,14 +509,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task1/DoubleTuple.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task1/DoubleTuple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task1/Tuple.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task1/Tuple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -695,14 +526,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/TeamTournament.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/TeamTournament.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
@@ -712,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Tournament.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Tournament.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
           <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
@@ -722,35 +553,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/HumanPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/HumanPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Competitor.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Competitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/IndividualTournament.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/IndividualTournament.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
@@ -761,14 +592,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack4/D.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack4/D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task3/Robot.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task3/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
@@ -782,17 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack3/C.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack3/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
@@ -803,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack2/B.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack2/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
@@ -814,7 +635,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task4/pack1/A.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit1/task4/pack1/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
@@ -833,10 +671,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/task5/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/IPerishable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/ItemBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/MilkBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task1/item/MilkType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Colors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Tv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/RemoteAbs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Fridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Bulb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/ExtendedLifeCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/NotGenderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task4/BasicLifeCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/DBLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task3/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/ispiti/ispit2/task5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
         </state>
       </provider>
     </entry>
