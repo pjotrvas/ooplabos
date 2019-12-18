@@ -44,7 +44,7 @@ public class MyByteWriter {
 
             bufferedInputStream.close();
             this.inputStream.close();
-            os.close();
+
         }
         catch (IOException e){
             e.printStackTrace();
