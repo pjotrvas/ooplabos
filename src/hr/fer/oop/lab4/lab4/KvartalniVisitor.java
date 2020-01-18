@@ -33,7 +33,7 @@ public class KvartalniVisitor extends SimpleFileVisitor<Path> {
         if(file.toString().endsWith(".txt")) {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(Files.newInputStream(file)));
             String mjesec = file.getParent().getFileName().toString();
-            //System.out.println("Upravo posjetih " + mjesec );
+
             Double iznos = null;
             String redniBrojRacuna = null;
             String outputLine = "";

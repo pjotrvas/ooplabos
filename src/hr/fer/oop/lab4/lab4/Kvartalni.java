@@ -14,22 +14,22 @@ public class Kvartalni {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Unesite godinu za koju zelite kvartalni izvjestaj: ");
-        String godina = "";
+        String year = "";
 
         while (true) {
-            godina = sc.next();
-            if(godina.trim().length() != 4)
+            year = sc.next();
+            if(year.trim().length() != 4)
                 System.err.println("Neispravno unesena godina!");
             else
                 break;
         }
 
-        Path path = Paths.get("/Users/matea/Downloads/racuni3/" + godina);
+        Path path = Paths.get("/Users/matea/Downloads/racuni3/" + year);
         FileVisitor<Path> visitor = new KvartalniVisitor();
 
         try {
             Files.walkFileTree(path,visitor);
-            String fileName = "report"+godina+"-"; //report2017-
+            String fileName = "report"+year+"-";
 
 
             for(int i = 1; i <= 4; i++) {
@@ -38,7 +38,7 @@ public class Kvartalni {
                 int ukupno = 0;
                 double suma = 0;
                 for(String part : parts) {
-                    if (part.contains("Ukupno:")) {
+                    if (part.contains("UKUPNO:")) {
                         ukupno++;
                         try {
                             String parts2[] = part.split("\\s+");
@@ -54,7 +54,10 @@ public class Kvartalni {
                                 new BufferedOutputStream(new FileOutputStream("/Users/matea/Downloads/"+fileName+i+".txt"))
                                 ,"UTF-8")
                 );
-                bw.write(godina + "\n" + i + ". kvartal\n" + values + "\nBroj racuna: " + ukupno + "\nUKUPNI PDV: " + suma);
+                if (i == 1) bw.write(year + "\n" + i + ". kvartal" + "(" + i + "-" + (i*3) + ")\n" + "Ukupno racuna: " + ukupno + "\n" + values +  "\nUKUPNI PDV: " + suma);
+                if (i == 2) bw.write(year + "\n" + i + ". kvartal" + "(" + (i+2) + "-" + (i*3) + ")\n" + "Ukupno racuna: " + ukupno + "\n" + values +  "\nUKUPNI PDV: " + suma);
+                if (i == 3) bw.write(year + "\n" + i + ". kvartal" + "(" + (i+4) + "-" + (i*3) + ")\n" + "Ukupno racuna: " + ukupno + "\n" + values +  "\nUKUPNI PDV: " + suma);
+                if (i == 4) bw.write(year + "\n" + i + ". kvartal" + "(" + (i+6) + "-" + (i*3) + ")\n" + "Ukupno racuna: " + ukupno + "\n" + values +  "\nUKUPNI PDV: " + suma);
                 bw.close();
             }
         } catch (IOException e) {

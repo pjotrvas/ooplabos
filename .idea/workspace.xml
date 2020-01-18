@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d141a7-4f59-4e13-ad3e-d4aaae7def7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KvartalniVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/first/MyByteWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/first/MyByteWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab4/first/MyByteWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab4/first/MyByteWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/lab4/Izvjestaji.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/lab4/KVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/lab4/Kvartalni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/lab4/Kvartalni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/lab4/KvartalniVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ooplabos/hr/fer/oop/lab4/lab4/KvartalniVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KvartalniVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KvartalniVisitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,28 +21,31 @@
     <session id="-968967346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="22718" />
+          <entry key="java" value="22896" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22718" />
+          <entry key="JAVA" value="22896" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -70,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KvartalniVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+            <state relative-caret-position="297">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="702">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +114,7 @@
       <find>iter</find>
       <find>ante</find>
       <find>kvartal</find>
+      <find>ukupno</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,17 +170,18 @@
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/third/Program.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/first/MyByteWriter.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Izvjestaj.java" />
-        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KVisitor.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Izvjestaji.java" />
         <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KvartalniVisitor.java" />
+        <option value="$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1" />
-    <option name="width" value="976" />
-    <option name="height" value="1050" />
+    <option name="x" value="-1910" />
+    <option name="y" value="-81" />
+    <option name="width" value="1910" />
+    <option name="height" value="2160" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,43 +221,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="first" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="lab4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="second" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ooplabos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ooplabos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="third" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576666605369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576668671702" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -312,10 +295,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="-1910" y="-81" width="1910" height="2160" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49847096" weight="0.23464373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.17814855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +307,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50152904" side_tool="true" weight="0.14987715" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979238" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32466182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3194589" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,7 +315,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24167694" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24141519" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -462,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="e#344#359#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,10 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2331">
           <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding>
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,10 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="187" column="11" selection-start-line="187" selection-start-column="11" selection-end-line="187" selection-end-column="11" />
-          <folding>
-            <element signature="e#6101#6102#0" expanded="true" />
-            <element signature="e#6146#6147#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,10 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="890">
           <caret line="140" column="56" lean-forward="true" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="56" />
-          <folding>
-            <element signature="e#4990#4991#0" expanded="true" />
-            <element signature="e#5036#5037#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,18 +559,8 @@
     <entry file="file://$PROJECT_DIR$/cjenik.88592.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/OOP-lab4-2019/src/hr/fer/oop/lab4/third/Organizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5894" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/third/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/OOP-lab4-2019/src/hr/fer/oop/lab4/third/Organizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/third/Student.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -610,34 +568,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/third/GradeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ja-radio/src/hr/fer/oop/lab4/third/Program.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ja-radio/src/hr/fer/oop/lab4/third/Organizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/third/GradeList.java" />
+    <entry file="file://$USER_HOME$/Desktop/ja-radio/src/hr/fer/oop/lab4/third/Program.java" />
+    <entry file="file://$USER_HOME$/Desktop/ja-radio/src/hr/fer/oop/lab4/third/Organizer.java" />
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/first/SingleFileProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,11 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,50 +645,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="62" column="69" selection-start-line="62" selection-start-column="69" selection-end-line="62" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KVisitor.java" />
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/first/MultipleFileProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Izvjestaji.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Izvjestaji.java" />
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/KvartalniVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="297">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/fer/oop/lab4/lab4/Kvartalni.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="702">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
