@@ -1,50 +1,108 @@
 package hr.fer.oop.lab5.gameOfLife;
 
-import javax.swing.*;
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.Point;
+import java.io.File;
+
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JToggleButton;
+import javax.swing.SwingUtilities;
 
 public class BoardFrame extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     private static final int BOARD_HEIGHT = 30;
-    public static final int  BOARD_WIDTH = 30;
+    private static final int BOARD_WIDTH = 30;
 
-    private JButton btnPlay, btnStop, btnTick;
+    private JButton playButton, stopButton, iterationButton, resetButton, saveButton, loadButton;
     private JToggleButton buttons[][];
     private Board board;
-    private SimulationThread simulationThread;
+    private SimulationThread thread;
 
-    public BoardFrame(){
+    public BoardFrame () {
         JPanel buttonPanel = new JPanel();
 
-        btnPlay = new JButton("POKRENI");
-        buttonPanel.add(btnPlay);
-        btnPlay.addActionListener((e) -> {
-            simulationThread = new SimulationThread(board);
-            btnPlay.setEnabled(false);
-            btnStop.setEnabled(true);
-            btnTick.setEnabled(false);
-            simulationThread.start();
+        playButton = new JButton("Pokreni");
+        buttonPanel.add(playButton);
+        playButton.addActionListener(e -> {
+            thread = new SimulationThread(board);
+            playButton.setEnabled(false);
+            stopButton.setEnabled(true);
+            iterationButton.setEnabled(false);
+            thread.start();
         });
 
-        btnStop = new JButton("ZAUSTAVI");
-        btnStop.setEnabled(false);
-        buttonPanel.add(btnStop);
-        btnStop.addActionListener((e) -> {
-            simulationThread.setStopping();
-            btnPlay.setEnabled(true);
-            btnStop.setEnabled(false);
-            btnTick.setEnabled(true);
+
+        stopButton = new JButton("Zaustavi");
+        stopButton.setEnabled(false);
+        buttonPanel.add(stopButton);
+        stopButton.addActionListener(e -> {
+            thread.setStopping();
+            playButton.setEnabled(true);
+            stopButton.setEnabled(false);
+            iterationButton.setEnabled(true);
         });
 
-        btnTick = new JButton("Jedna iteracija");
-        buttonPanel.add(btnTick);
-        btnTick.addActionListener((e) -> {
+
+        iterationButton = new JButton("Jedna iteracija");
+        buttonPanel.add(iterationButton);
+        iterationButton.addActionListener(e -> {
             board.playOneIteration();
         });
 
-        add(buttonPanel, BorderLayout.NORTH);
+
+        resetButton = new JButton("Resetiraj");
+        buttonPanel.add(resetButton);
+        resetButton.addActionListener(e -> {
+            board.resetBoard();
+        });
+
+
+        saveButton = new JButton("Save");
+        buttonPanel.add(saveButton);
+        saveButton.addActionListener(e -> {
+            JFileChooser save = new JFileChooser();
+            int returnVal = save.showSaveDialog(BoardFrame.this);
+            if (returnVal == JFileChooser.APPROVE_OPTION) {
+                try {
+                    File file = save.getSelectedFile();
+                    board.saveBoard(file);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            }
+        });
+
+
+        loadButton = new JButton("Load");
+        buttonPanel.add(loadButton);
+        loadButton.addActionListener(e -> {
+            JFileChooser load = new JFileChooser();
+            int returnVal = load.showOpenDialog(BoardFrame.this);
+            if (returnVal == JFileChooser.APPROVE_OPTION) {
+                try {
+                    File file = load.getSelectedFile();
+                    board.loadBoard(file);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            }
+        });
+
+
+        add(buttonPanel , BorderLayout.NORTH);
 
         initializeButtonAndBoard();
+
     }
+
 
     private void initializeButtonAndBoard () {
         board = new Board(BOARD_WIDTH, BOARD_HEIGHT);
@@ -66,7 +124,7 @@ public class BoardFrame extends JFrame {
                         board.setCell((int)point.getX(), (int)point.getY(), false);
                     }
                 });
-                    boardPanel.add(toggleButton);
+                boardPanel.add(toggleButton);
             }
         }
 
@@ -87,12 +145,13 @@ public class BoardFrame extends JFrame {
             });
         });
     }
+
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             BoardFrame frame = new BoardFrame();
             frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-            frame.pack();
             frame.setVisible(true);
+            frame.pack();
         });
     }
 
